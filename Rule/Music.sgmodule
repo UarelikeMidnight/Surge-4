@@ -1,3 +1,5 @@
+#!name=音乐软件分流
+[Rule]
 #Youtube Music
 DOMAIN,music.youtube.com
 USER-AGENT,*YouTubeMusic*
