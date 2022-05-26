@@ -30,7 +30,7 @@ var flags = new Map([["AC", "🇦🇨"], ["AE", "🇦🇪"], ["AF", "🇦🇫"],
         await Promise.all([check_netflix()])
             .then((result) => {
                 console.log(result)
-                let disney_result = ""
+                let disney_result = "Disney+"
                 if (status == STATUS_COMING) {
                     //console.log(1)
                     disney_result = "Disney+：即将登陆 ➤ " + flags.get(region.toUpperCase()) + " | " + region.toUpperCase()
