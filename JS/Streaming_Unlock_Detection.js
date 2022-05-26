@@ -33,17 +33,17 @@ var flags = new Map([["AC", "🇦🇨"], ["AE", "🇦🇪"], ["AF", "🇦🇫"],
  let disney_result=""
     if (status==STATUS_COMING) {
         //console.log(1)
-        disney_result="迪士尼: 即将登陆~" + flags.get(region.toUpperCase())
+        disney_result="迪士尼➤即将登陆~" + flags.get(region.toUpperCase())
       } else if (status==STATUS_AVAILABLE){
         //console.log(2)
         console.log(region)
-        disney_result="迪士尼"+flags.get(region.toUpperCase())
+        disney_result="迪士尼➤"+flags.get(region.toUpperCase())
         // console.log(result["Disney"])
       } else if (status==STATUS_NOT_AVAILABLE) {
         //console.log(3)
-        disney_result="迪士尼:🚫"
+        disney_result="迪士尼➤🚫"
       } else if (status==STATUS_TIMEOUT) {
-        disney_result="迪士尼:񑀀"
+        disney_result="迪士尼➤񑀀"
       }
 result.push(disney_result)
 console.log(result)
