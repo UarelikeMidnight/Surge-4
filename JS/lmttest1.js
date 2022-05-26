@@ -103,7 +103,7 @@ async function check_netflix() {
             if (code === 'Not Found') {
                 return inner_check(80018499)
             }
-            netflix_check_result += '完全解锁 ➤ ' + flags.get(code.toUpperCase()) + " | " + code.toUpperCase()
+            netflix_check_result += '➤ ' + flags.get(code.toUpperCase()) + " | " + code.toUpperCase()
             return Promise.reject('BreakSignal')
         })
         .then((code) => {
