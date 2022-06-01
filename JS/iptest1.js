@@ -1,8 +1,6 @@
 let url = "https://ipinfo.io/json?token=d415d0d57e45a3"
 
-
-
-$httpClient.get(url, function(error, response){
+$.ajax(url).done(function (response) {
    var isp = response.ip
    var city = response.city
    var country = response.country
