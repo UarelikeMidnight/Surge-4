@@ -1,0 +1,8 @@
+#!name=网络信息1
+#!desc=网络ip信息1
+
+[Panel]
+网络信息1 = script-name=网络信息1,title=网络信息1,content=请刷新,style=info,update-interval=60
+
+[Script]
+网络信息1 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/UarelikeMidnight/Surge-4/main/JS/ipxx.js
