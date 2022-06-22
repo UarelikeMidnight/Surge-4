@@ -2,7 +2,7 @@
 #!desc=📅22
 
 [Panel]
-# 节假日查询
+# 节假日查询等等
 timecard = script-name=timecard,update-interval=3600
 
 [Script]
